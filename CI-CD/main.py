@@ -1,5 +1,1 @@
-<<<<<<<< HEAD
-print("Versi B")
-========
-print("Versi A")
->>>>>>>> origin/main
+print('Hello from Developer A')
