@@ -1,7 +1,7 @@
-name Python CI Pipeline
-on push
-jobs
-  build
+name: Python CI Pipeline
+on:  [push, pull_request]
+jobs:
+  build:
      runs-on: ubuntu-latest
 
      steps:
